@@ -15,7 +15,7 @@ This project was built for the Decawork AI Engineering Internship assessment.
 
 1.  Python 3.10+
 2.  A valid Browser Use API Key.
-3.  [Ngrok](https://ngrok.com/) (to expose the local FastAPI server to the cloud-based agent).
+3.  [Ngrok](https://ngrok.com/) to expose the local FastAPI server to the cloud-based agent.
 
 ## Setup Instructions
 
@@ -87,7 +87,7 @@ In a new terminal window, start the tunnel to your running FastAPI server:
 ```bash
 ngrok http 8000
 ```
-(Copy the generated https://... forwarding URL from the Ngrok terminal dashboard and paste it into the TARGET_URL variable inside agent.py)
+Copy the generated https://... forwarding URL from the Ngrok terminal dashboard and paste it into the TARGET_URL variable inside agent.py
 
 
 ### 6. Run the Agent
